@@ -1,0 +1,16 @@
+---
+layout: base.njk
+---
+
+<ul>
+	{% for post in collections.posts | sort(attribute='date') | reverse %}
+	<li>
+		<a class="post-link" href="{{ post.url | url }}">
+			<p class="subtitle">{{ post.data.date | readableDate }}</p>
+			<h2 class="title">{{ post.data.title }}</h4>
+		</a>
+	</li>
+	{% endfor %}
+</ul>
+
+{{ content | safe }}

@@ -1,0 +1,28 @@
+{
+  "name": "janhuelsmann.com",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "evelenty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thealpa/janhuelsmann.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thealpa/janhuelsmann.com/issues"
+  },
+  "homepage": "https://github.com/thealpa/janhuelsmann.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "luxon": "^2.3.1",
+    "markdown-it-attrs": "^4.1.3"
+  }
+}
