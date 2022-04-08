@@ -88,6 +88,10 @@ ul {
 	padding: 1rem;
 }
 
+.full-width-img {
+	width: 100%;
+}
+
 .terminal-img {
 	width: 118.422%;
 	height: 118.422%;
