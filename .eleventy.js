@@ -1,5 +1,6 @@
 module.exports = function (eleventyConfig) {
 	const { DateTime } = require("luxon");
+	const { JSDOM } = require("jsdom");
 	const markdownIt = require('markdown-it');
 	const markdownItAttrs = require('markdown-it-attrs');
 	eleventyConfig.addPassthroughCopy("src/style.css");
@@ -28,6 +29,35 @@ module.exports = function (eleventyConfig) {
 			zone: "Europe/Berlin",
 		}).setLocale('en').toISODate();
 	});
+	
+	eleventyConfig.addTransform("retinaImg", function(content, outputPath) {
+		if (outputPath.endsWith('')) {
+			const dom = new JSDOM(content);
+			const document = dom.window.document;
+			const imageElements = document.querySelectorAll('img');
+			
+			if (imageElements.length === 0) {
+				return content;
+			}
+			
+			for (const imgElement of imageElements) {
+				const imgSrc = imgElement.getAttribute('src');
+				
+				if (imgSrc.startsWith('/img/')) {
+					let srcSet = [];
+					let srcString = imgSrc.split('.')
+					let imgSrc2x = srcString[0] + '@2x.' + srcString[1]
+					let imgSrc3x = srcString[0] + '@3x.' + srcString[1]
+					srcSet.push(imgSrc2x + ' 2x');
+					srcSet.push(imgSrc3x + ' 3x');
+					srcSet = srcSet.join(', ');
+					imgElement.setAttribute('srcset', srcSet);
+				}
+			}
+			return '<!DOCTYPE html>' + document.documentElement.outerHTML;
+		}
+		return content;
+	});	
 	
 	const markdownItOptions = {
 	  html: true,
