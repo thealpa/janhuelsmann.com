@@ -11,9 +11,9 @@ CVAG Departure Monitor is a minimal iPhone App displaying [CVAG](https://www.cva
 
 The app was build entirely using ✨ **SwiftUI** ✨ as I tried to learn the basics of Swift and SwiftUI.
 
-The app can be downloaded from the [App Store](#){.highlight} and the source code is available on [GitHub](https://github.com/thealpa/CVAG){.highlight}. If you like the app, please consider leaving a positive App Store rating or star it on GitHub.
+The app can be downloaded from the [App Store](https://apps.apple.com/app/cvag/id1298198933){.highlight} and the source code is available on [GitHub](https://github.com/thealpa/CVAG){.highlight}. If you like the app, please consider leaving a positive App Store rating or star it on GitHub.
 
-[![App Store Badge](/img/download_on_the_app_store_badge.webp)](#)
+[![App Store Badge](/img/download_on_the_app_store_badge.webp)](https://apps.apple.com/app/cvag/id1298198933)
 
 ---
 
