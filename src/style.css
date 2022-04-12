@@ -98,6 +98,12 @@ ul {
 	margin-left: -3.45rem;
 }
 
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .highlight {
 	color: #256EFF;
 	font-weight: 600;
