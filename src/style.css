@@ -84,6 +84,13 @@ ul {
 	margin: 0;
 }
 
+hr {
+	height: 1px;
+	background-color: rgba(112,118,126,.55);
+	border: none;
+	margin-top: 3rem;
+}
+
 .post {
 	padding: 1rem;
 }
