@@ -1,6 +1,6 @@
 {
   "name": "janhuelsmann.com",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My personal website",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "url": "git+https://github.com/thealpa/janhuelsmann.com.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jan Hülsmann <mail@janhuelsmann.com> (https://janhuelsmann.com)",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/thealpa/janhuelsmann.com/issues"
   },
@@ -24,7 +24,7 @@
   "dependencies": {
     "image-size": "^1.0.1",
     "jsdom": "^19.0.0",
-    "luxon": "^2.3.1",
+    "luxon": "^2.3.2",
     "markdown-it-attrs": "^4.1.3"
   }
 }
