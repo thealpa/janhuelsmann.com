@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
 	const { JSDOM } = require("jsdom");
 	const markdownIt = require('markdown-it');
 	const markdownItAttrs = require('markdown-it-attrs');
+	var sizeOf = require('image-size');
 	eleventyConfig.addPassthroughCopy("src/style.css");
 	eleventyConfig.addPassthroughCopy("src/img/*");
 	eleventyConfig.addPassthroughCopy("src/robots.txt");
@@ -44,6 +45,11 @@ module.exports = function (eleventyConfig) {
 				const imgSrc = imgElement.getAttribute('src');
 				
 				if (imgSrc.startsWith('/img/')) {
+					
+					let dimensions = sizeOf('src' + imgSrc);
+					imgElement.setAttribute('width', dimensions.width);
+					imgElement.setAttribute('height', dimensions.height);
+					
 					let srcSet = [];
 					let srcString = imgSrc.split('.')
 					let imgSrc2x = srcString[0] + '@2x.' + srcString[1]
