@@ -1,4 +1,6 @@
 {
+    "short_name": "Jan",
+    "name": "Jan Hülsmann",
     "icons": [
         {
             "src": "/icon-192.png",
@@ -10,5 +12,9 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ]
+    ],
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "minimal-ui",
+    "theme_color": "#FFFFFF"
 }
