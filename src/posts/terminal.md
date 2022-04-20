@@ -3,7 +3,7 @@ title: Terminal Setup
 desc: My current terminal setup
 permalink: terminal
 layout: post.njk
-date: 2019-06-30
+date: 2019-10-29
 ---
 Updated 2021-02-27
 ![Terminal Screenshot](/img/terminal.webp){.terminal-img}
