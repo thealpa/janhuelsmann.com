@@ -1,6 +1,6 @@
 ---
 title: Sane Side Buttons
-discription: Todo
+desc: Todo
 permalink: sanesidebuttons
 layout: post.njk
 date: 2022-03-07

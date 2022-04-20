@@ -1,6 +1,6 @@
 ---
 title: Terminal Setup
-discription: My current terminal setup
+desc: My current terminal setup
 permalink: terminal
 layout: post.njk
 date: 2019-06-30
