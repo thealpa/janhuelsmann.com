@@ -8,9 +8,9 @@ eleventyExcludeFromCollections: true
   X-XSS-Protection: 1
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: document-domain=()
-  Content-Security-Policy: default-src 'self'; frame-ancestors 'none';
+  Content-Security-Policy: default-src 'self'; frame-ancestors 'none'
 {% for post in collections.all %}
 /{{ post.data.permalink }}
-  Content-Type: text/html; charset=utf-8;
+  Content-Type: text/html; charset=utf-8
   Link: </style.css>; rel=preload; as=style
 {% endfor %}
