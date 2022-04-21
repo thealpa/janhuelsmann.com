@@ -1,6 +1,7 @@
 ---
 title: CVAG Departure Monitor
-desc: CVAG Departure Monitor is a minimal iPhone transport app displaying CVAG departure times to help you navigate the Chemnitz area.
+desc: A minimal iPhone transport app displaying CVAG departure times to help you navigate the Chemnitz area.
+cover: /img/cover_cvag.jpg
 permalink: cvag
 layout: post.njk
 date: 2022-04-09
