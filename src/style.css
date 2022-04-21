@@ -125,6 +125,10 @@ img {
 	text-decoration-color: rgba(29,120,189,.3);
 }
 
+.highlight:hover {
+	text-decoration-color: rgba(37, 110, 225, 0.7);
+}
+
 .underline {
 	text-decoration: underline;
 	text-decoration-color: rgba(112, 118, 126, 0.55);
