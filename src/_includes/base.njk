@@ -12,6 +12,13 @@
 	<link rel="manifest" href="/manifest.webmanifest">
 	<meta name="description" content="{{ desc or title }}">
 	<meta name="author" content="Jan Hülsmann">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://janhuelsmann.com{{ page.url }}">
+	<meta property="og:title" content="{{ title }}">
+	<meta property="og:description" content="{{ desc or title }}">
+	{% if cover %}<meta property="og:image" content="https://janhuelsmann.com{{ cover }}">{% else %}<meta property="og:image" content="https://janhuelsmann.com/img/default_cover.jpg">{% endif %}
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:creator" content="@Alpaone">
 </head>
 <body>
 	<header>
