@@ -5,5 +5,6 @@ layout: base.njk
 <div class="post">
 	<p class="subtitle">{{ date | readableDate }}</p>
 	<h2>{{ title }}</h4>
+	{% if updated %}<p class="subtitle">Last updated {{ updated | readableDate }}</p>{% endif %}
 	{{ content | safe }}
 </div>
