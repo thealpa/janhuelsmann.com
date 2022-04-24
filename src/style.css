@@ -121,6 +121,11 @@ img {
 	margin-right: auto;
 }
 
+video {
+  height: 100%;
+  width: 100%;
+}
+
 .highlight {
 	color: #256EFF;
 	font-weight: 600;
