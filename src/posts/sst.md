@@ -3,8 +3,9 @@ title: Enabling Intel SST on ASUS Motherboards
 desc: This guide outlines fow to edit ASUS BIOS files to enable Intel Speed Shift on unsupported motherboards.
 permalink: sst
 layout: post.njk
-date: 2017-06-30
+date: Last Modified
 updated: 2018-10-30
+published: 2017-06-30
 ---
 **Intel SST should now work out of the box with newer ASUS UEFI versions.**
 

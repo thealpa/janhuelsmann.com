@@ -4,7 +4,8 @@ desc: A minimal iPhone transport app displaying CVAG departure times to help you
 cover: /img/cover_cvag.jpg
 permalink: cvag
 layout: post.njk
-date: 2022-04-09
+date: Last Modified
+published: 2022-04-09
 ---
 ![App Promo Mockup](/img/cvag_mockup.webp){.full-width-img}
 

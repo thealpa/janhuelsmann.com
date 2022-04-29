@@ -3,7 +3,8 @@ title: Sane Side Buttons
 desc: Utilize extra mouse side buttons to navigate forward and backward on macOS with SaneSideButtons. With this native Apple silicon utility...
 permalink: sanesidebuttons
 layout: post.njk
-date: 2022-03-07
+date: Last Modified
+published: 2022-03-07
 ---
 {% include "elements/inline_video.html" fileName: "sane_side_buttons" %}
 

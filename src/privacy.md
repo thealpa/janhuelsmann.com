@@ -2,6 +2,7 @@
 title: Privacy Policy
 permalink: privacy
 layout: post.njk
+date: Last Modified
 ---
 
 This policy was not written by a lawyer. It's meant to be informal and not a legal agreement or contract. Where agreement is implied below, it's understood as user consent trough their web browser settings.

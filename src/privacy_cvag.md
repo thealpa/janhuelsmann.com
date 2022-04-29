@@ -2,6 +2,7 @@
 title: CVAG Departure Monitor Privacy Policy
 permalink: cvag_privacy
 layout: post.njk
+date: Last Modified
 ---
 
 Your privacy is important so I've developed a privacy policy that covers how the CVAG Departure Monitor collects, uses, discloses, transfers and stores your personal and non-personal information.

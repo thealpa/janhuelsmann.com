@@ -1,9 +1,10 @@
 ---
-title: Using the UDM-Pro as a NAS
-desc: My current terminal setup
+title: Ubiquiti Dream Machine Pro as a NAS
+desc: Launching a samba container via podman to utilize the Ubiquiti Dream Machine Pro as a small network attached storage (NAS).
 permalink: udm-pro-nas
 layout: post.njk
-date: 2022-02-28
+date: Last Modified
+published: 2022-02-28
 ---
 
 The [Ubiquiti Dream Machine Pro](https://store.ui.com/collections/unifi-network-unifi-os-consoles/products/udm-pro){.highlight} line of networking consoles offer a single 3.5" drive bay (with compatibility for 2.5" drives). Out of the box the drive can unfortunately only be used as Unifi Protect storage. Thankfully the UDM Pro runs it's services using containers, which means we can launch our own via [podman](https://podman.io/){.highlight}, allowing the UDM Pro to be used as a small NAS using the SMB/CIFS server software [samba](https://www.samba.org/){.highlight}. 
