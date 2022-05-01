@@ -135,6 +135,10 @@ hr {
 	margin-left: -3.45rem;
 }
 
+.img-circle {
+	border-radius: 50%;
+}
+
 img {
 	display: block;
 	margin-left: auto;
