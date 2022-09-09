@@ -13,8 +13,8 @@ The [Ubiquiti Dream Machine Pro](https://store.ui.com/collections/unifi-network-
 
 1. SSH into your UDM Pro. If you haven't done this before you can follow this [guide](https://evanmccann.net/blog/2020/5/udm-ssh){.highlight}.
 
-2. Enter the following command to install [on_boot.d](https://github.com/boostchicken/udm-utilities){.highlight} as well as the required [CNI plugins](https://github.com/boostchicken-dev/udm-utilities/blob/master/cni-plugins/05-install-cni-plugins.sh){.highlight} and [CNI bridge scipt](https://github.com/boostchicken-dev/udm-utilities/blob/master/on-boot-script/examples/udm-networking/on_boot.d/05-cni-bridge.sh){.highlight}:
-`curl -fsL "https://raw.githubusercontent.com/boostchicken/udm-utilities/HEAD/on-boot-script/remote_install.sh" | /bin/sh`
+2. Enter the following command to install [on_boot.d](https://github.com/unifi-utilities/unifios-utilities){.highlight} as well as the required [CNI plugins](https://raw.githubusercontent.com/unifi-utilities/unifios-utilities/HEAD/cni-plugins/05-install-cni-plugins.sh){.highlight} and [CNI bridge scipt](https://raw.githubusercontent.com/unifi-utilities/unifios-utilities/main/on-boot-script/examples/udm-networking/on_boot.d/06-cni-bridge.sh){.highlight}:
+`curl -fsL "https://raw.githubusercontent.com/unifi-utilities/unifios-utilities/main/on-boot-script/remote_install.sh" | /bin/sh`
 
 3. Download the [samba container script](https://raw.githubusercontent.com/thealpa/UDMPRO-samba/udmsamba-master/20-samba.sh){.highlight} to your UDM Pro:
 `curl "https://raw.githubusercontent.com/thealpa/UDMPRO-samba/udmsamba-master/20-samba.sh" -o /mnt/data/on_boot.d/20-samba.sh`
