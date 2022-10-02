@@ -12,6 +12,10 @@ Utilize extra mouse side buttons to navigate forward and backward on macOS with 
 
 {% include "elements/download_button.html" url: "https://github.com/thealpa/SaneSideButtons/releases/download/1.1.0/SaneSideButtons.dmg" subtitle: "Intel & Apple Silicon" %}
 
+Or install using [Homebrew](https://formulae.brew.sh/cask/sanesidebuttons){.highlight}:
+
+`brew install --cask sanesidebuttons`
+
 ### Automatic Launch
 
 To launch SaneSideButtons automatically when you log in on your Mac:
