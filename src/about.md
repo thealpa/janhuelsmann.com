@@ -5,7 +5,7 @@ date: Last Modified
 ---
 ![App Promo Mockup](/img/profile.webp){.img-circle}
 
-<br/>**Hi!** I'm a software engineer with a passion for design, iOS/macOS apps, serverless architectures, and mechanical keyboards.
+<br/>**Hi!** I'm a software engineer with a passion for iOS/macOS apps, design, serverless architectures, and mechanical keyboards.
 
 I am an iOS engineer currently working at [LOVOO](https://apps.apple.com/us/app/lovoo-dating-app-live-chat/id445338486){.highlight} helping people find the opposite of loneliness. I also have a degree from the Technical University of Chemnitz in Business Informatics (Computer Science + Business Administration).
 
