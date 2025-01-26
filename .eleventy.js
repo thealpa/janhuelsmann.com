@@ -13,6 +13,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/manifest.webmanifest");
 	eleventyConfig.addPassthroughCopy("src/icon-192.png");
 	eleventyConfig.addPassthroughCopy("src/icon-512.png");
+
+	eleventyConfig.configureErrorReporting({
+		allowMissingExtensions: true
+	});
 	
 	eleventyConfig.setBrowserSyncConfig({
 		middleware: [
