@@ -7,7 +7,7 @@ date: Last Modified
 updated: 2018-10-30
 published: 2017-06-30
 ---
-**Intel SST should now work out of the box with newer ASUS UEFI versions.**
+**⚠️ Intel SST should now work out of the box with newer ASUS UEFI versions.**
 
 I recently purchased an [ASUS Z270I](https://rog.asus.com/motherboards/rog-strix/rog-strix-z270-i-gaming-model/){.highlight} motherboard and noticed that [Intel Speed Shift](https://arstechnica.com/information-technology/2015/08/the-many-tricks-intel-skylake-uses-to-go-faster-and-use-less-power/){.highlight} did not work (HWiNFO64 is a great tool to validate whether CPU features are enabled). 
 

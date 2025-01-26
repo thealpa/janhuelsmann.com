@@ -8,7 +8,7 @@ updated: 2024-02-03
 published: 2022-02-28
 ---
 
-Since publishing this blog post I've sold my UDM-Pro. But starting with UniFi OS 3 samba can directly be installed without the need for any scripts or container. SSH into your UDM Pro and run:
+⚠️ Since publishing this blog post I've sold my UDM-Pro. But starting with UniFi OS 3 samba can directly be installed without the need for any scripts or container. SSH into your UDM Pro and run:
 `sudo apt install samba`
 
 ### Original Post
