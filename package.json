@@ -1,11 +1,11 @@
 {
   "name": "janhuelsmann.com",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My personal website",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "evelenty"
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -19,12 +19,13 @@
   },
   "homepage": "https://github.com/thealpa/janhuelsmann.com#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^3.0.0"
   },
   "dependencies": {
-    "image-size": "^1.1.1",
-    "jsdom": "^24.0.0",
-    "luxon": "^3.4.4",
-    "markdown-it-attrs": "^4.1.6"
+    "eleventy": "^3.0.0",
+    "image-size": "^1.2.0",
+    "jsdom": "^26.0.0",
+    "luxon": "^3.5.0",
+    "markdown-it-attrs": "^4.3.1"
   }
 }
