@@ -3,7 +3,7 @@ module.exports = function (eleventyConfig) {
 	const { JSDOM } = require("jsdom");
 	const markdownIt = require('markdown-it');
 	const markdownItAttrs = require('markdown-it-attrs');
-	const sizeOf = require('image-size');
+	const { imageSizeFromFile } = require('image-size/fromFile')
 	eleventyConfig.addPassthroughCopy("src/style.css");
 	eleventyConfig.addPassthroughCopy("src/img/*");
 	eleventyConfig.addPassthroughCopy("src/robots.txt");
@@ -35,7 +35,7 @@ module.exports = function (eleventyConfig) {
 		}).setLocale('en').toISODate();
 	});
 	
-	eleventyConfig.addTransform("retinaImg", function(content, outputPath) {
+	eleventyConfig.addTransform("retinaImg", async function(content, outputPath) {
 		if (outputPath.endsWith('')) {
 			const dom = new JSDOM(content);
 			const document = dom.window.document;
@@ -50,7 +50,7 @@ module.exports = function (eleventyConfig) {
 				
 				if (imgSrc.startsWith('/img/')) {
 					
-					let dimensions = sizeOf('src' + imgSrc);
+					let dimensions = await imageSizeFromFile('src' + imgSrc);
 					imgElement.setAttribute('width', dimensions.width);
 					imgElement.setAttribute('height', dimensions.height);
 					
@@ -64,7 +64,7 @@ module.exports = function (eleventyConfig) {
 					imgElement.setAttribute('srcset', srcSet);
 				}
 			}
-			return '<!DOCTYPE html>' + document.documentElement.outerHTML;
+			return dom.serialize();
 		}
 		return content;
 	});	
