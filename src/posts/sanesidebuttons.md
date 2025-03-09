@@ -11,7 +11,7 @@ published: 2022-03-07
 
 Utilize extra mouse side buttons to navigate forward and backward on macOS with SaneSideButtons. With this native Apple silicon utility your side buttons will simulate 3-finger swipes, allowing you to navigate almost any window with a history.
 
-{% include "elements/download_button.html" url: "https://github.com/thealpa/SaneSideButtons/releases/latest/download/SaneSideButtons.dmgg" subtitle: "Intel & Apple Silicon" %}
+{% include "elements/download_button.html" url: "https://github.com/thealpa/SaneSideButtons/releases/latest/download/SaneSideButtons.dmg" subtitle: "Intel & Apple Silicon" %}
 
 ..or install using [Homebrew](https://formulae.brew.sh/cask/sanesidebuttons){.highlight}:
 
